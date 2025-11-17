@@ -1,13 +1,16 @@
 # 📊 Análisis de Datos BMW (2010–2024)
 ## Importación de los datos
 
+Este análisis es una visión general del proceso realizado, se ha detallado en el siguiente documento.
+[Ver análisis completo en PDF](Análisis_Ventas_BMW_con_Excel.pdf)
+
 Previsualizamos el dataset en Kaggle y revisamos qué tipo de datos contiene cada columna:
 🔗 Dataset: https://www.kaggle.com/datasets/ahmadrazakashif/bmw-worldwide-sales-records-20102024/data
 
 ### Previsualización del Dataset
 Inserta aquí la imagen:
 
-![Previsualización del dataset](Img/Revision_Pre_Carga.png)
+![Previsualización del dataset](Img/Kaggle.png)
 ### Descarga e importación en Excel
 
 Una vez revisado el dataset, procedemos a descargar el archivo CSV e importarlo en Excel desde:
@@ -16,13 +19,13 @@ Al seleccionar el dataset, Excel mostrará una ventana previa donde detectará a
 
 ### Ventana de importación
 Inserta aquí la imagen:
-![Ventana de importación](ruta\_de\_tu\_imagen)
+![Ventana de importación](Img/Importación.png)
 
 Tras ello, pulsamos Cargar (en hoja existente, en este caso). Una vez importados, los datos se cargan correctamente como tabla de Excel.
 ### Tabla importada en Excel
 Inserta aquí la imagen:
 
-![Tabla generada por Excel](ruta\_de\_tu\_imagen)
+![Tabla generada por Excel](Img/Revision_Pre_Carga.png)
 
 ## Preparación de los datos
 ### Eliminación de duplicados
@@ -37,7 +40,7 @@ Creamos una columna llamada ID para identificar cada registro. Si la columna no 
 Diseño de tabla → Cambiar tamaño de la tabla
 Inserta aquí la imagen del proceso:
 
-![Columna ID y ampliación de tabla](ruta\_de\_tu\_imagen)
+![Columna ID y ampliación de tabla](Img/Redimension_Tabla.png)
 ### Corrección de formatos
 
 Detectamos que algunas columnas no tenían el formato correcto:
@@ -49,7 +52,7 @@ Sales_Volume
 
 Tras corregirlos, la tabla queda así:
 
-![Tabla tras corregir formatos](ruta\_de\_tu\_imagen)
+![Tabla tras corregir formatos](Img/Tabla_Formateada.png)
 
 ## Tablas dinámicas y construcción del Dashboard
 Creamos las tablas dinámicas que servirán como base para los gráficos del Dashboard.
@@ -61,7 +64,7 @@ Un punto a destacar:
 ### Dashboard generado
 
 Inserta aquí la imagen del Dashboard completo:
-![Dashboard BMW](ruta\_de\_tu\_imagen)
+![Dashboard BMW](Img/DBG.png)
 
 Las tablas están correctamente conectadas a los segmentadores, permitiendo una interacción completa con el dashboard.
 
