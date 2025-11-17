@@ -7,7 +7,7 @@ Previsualizamos el dataset en Kaggle y revisamos qué tipo de datos contiene cad
 ### Previsualización del Dataset
 Inserta aquí la imagen:
 
-![Previsualización del dataset](ruta\_de\_tu\_imagen)
+![Previsualización del dataset](Img/Revision Pre Carga.png)
 ### Descarga e importación en Excel
 
 Una vez revisado el dataset, procedemos a descargar el archivo CSV e importarlo en Excel desde:
