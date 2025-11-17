@@ -8,7 +8,6 @@ Previsualizamos el dataset en Kaggle y revisamos qué tipo de datos contiene cad
 🔗 Dataset: https://www.kaggle.com/datasets/ahmadrazakashif/bmw-worldwide-sales-records-20102024/data
 
 ### Previsualización del Dataset
-Inserta aquí la imagen:
 
 ![Previsualización del dataset](Img/Kaggle.png)
 ### Descarga e importación en Excel
@@ -18,12 +17,10 @@ Datos → Obtener datos → Desde un archivo → Desde texto/CSV
 Al seleccionar el dataset, Excel mostrará una ventana previa donde detectará automáticamente la estructura si el CSV está bien formateado.
 
 ### Ventana de importación
-Inserta aquí la imagen:
 ![Ventana de importación](Img/Importación.png)
 
 Tras ello, pulsamos Cargar (en hoja existente, en este caso). Una vez importados, los datos se cargan correctamente como tabla de Excel.
 ### Tabla importada en Excel
-Inserta aquí la imagen:
 
 ![Tabla generada por Excel](Img/Revision_Pre_Carga.png)
 
@@ -38,7 +35,6 @@ Si no hay duplicados, Excel mostrará un mensaje indicándolo.
 
 Creamos una columna llamada ID para identificar cada registro. Si la columna no queda dentro de la tabla:
 Diseño de tabla → Cambiar tamaño de la tabla
-Inserta aquí la imagen del proceso:
 
 ![Columna ID y ampliación de tabla](Img/Redimension_Tabla.png)
 ### Corrección de formatos
@@ -62,8 +58,6 @@ Un punto a destacar:
 📌 Debido a que las localizaciones vienen por regiones, no ha sido viable representar el mapa sin perder integridad en los datos.
 
 ### Dashboard generado
-
-Inserta aquí la imagen del Dashboard completo:
 ![Dashboard BMW](Img/DBG.png)
 
 Las tablas están correctamente conectadas a los segmentadores, permitiendo una interacción completa con el dashboard.
